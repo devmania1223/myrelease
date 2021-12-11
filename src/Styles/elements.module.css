@@ -1,0 +1,23 @@
+.mainContainer {
+    height : 500px;
+    width: 300px;
+    border: 4px solid black;
+    border-radius: 15px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    overflow: hidden;
+    /* background-image: linear-gradient(to bottom, #e36301 0%, #c2def2 51%, #04e188 100%) */
+}
+
+.modalContaine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center;
+    height : 100%
+}

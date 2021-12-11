@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  text-align: center;
+  padding: 10px;
+  background-color: lightblue;
+  border: none;
+  font-weight: bolder;
+  cursor: pointer;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  margin: 2px 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  width: 100%;
+  gap: 10px;
+  color: white;
+  background-image: linear-gradient(
+    to right,
+    #00d2ff 0%,
+    #3a7bd5 51%,
+    #00d2ff 100%
+  );
+}
+
+label {
+  font-weight: bold;
+  margin: 3px 0;
+  font-size: 12px;
+
+}
+
+input {
+  padding: 5px;
+  outline: none;
+}
+
+button:active {
+  transform: scale(0.9);
+}
+
+button:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+ul,
+li {
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  width: 100%;
+}
+
+.elemContainer {
+  width: 95%;
+  border: 1px solid red;
+  border-style: dashed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  justify-content: center;
+  gap: 10px;
+  overflow: hidden;
+}
+
+.modal {
+  height: 500px;
+  width: 320px;
+  box-shadow: 0px 2px 8px 1px rgba(0, 0, 0, 0.51);
+  border-radius: 20px;
+  margin-top: 50px;
+}
